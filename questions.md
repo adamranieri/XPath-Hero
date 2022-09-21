@@ -1,5 +1,5 @@
 # Xpath
-Selecting Web Elements from the DOM is an essential skill for automating web pages. There are a lot of ways to do Xpath and there is no always best solution. Try to answer the following questions by using Xpath. In chrome console, you can do $x("some xpath")to select these elements. This cheatsheet is also very helpful https://devhints.io/xpath . $x returns an array of elements. You can add .map(e => innerHTML) to see an easy printout of the nodes selected.
+Selecting Web Elements from the DOM is an essential skill for automating web pages. There are a lot of ways to do Xpath and there is no always best solution. Try to answer the following questions by using Xpath. In chrome console, you can do $x("some xpath")to select these elements. This cheatsheet is also very helpful https://devhints.io/xpath . $x returns an array of elements. Save all your Xpath queries in text file. You should try to do it individually but seek hints from others if you get stuck. Compare queries with your teammates as there are many ways to write these.
 
 
 ## Employee Overview
@@ -11,6 +11,13 @@ Selecting Web Elements from the DOM is an essential skill for automating web pag
   - hint use last()
 - Get All tds where the id is between 200 and 300
   - hint use logical operators and [@id]
+
+## Hi Score
+- Get the li that conatins TIM's Dig Dug score
+  - hint use 'and'
+- Get the list items that belong to YVN or GAR
+- Get the total amount of li in the document
+  - hint use count
 
 ## Sales Report
 - Select only the second table
